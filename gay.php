@@ -4,12 +4,17 @@
     <body>
         <p>
             <?php
-            $name = "Edgar";
-
-            if($name == "Simon"){
-                print "Yo mafrien";}
-            else {
-            print "kys";}
+            $myage = 19;
+            if($myage >= 16){
+                print "You are allowed to buy specs!";
+            }
+            elseif($myage >= 18) {
+                print "You are allowed to buy mugs!";
+            }
+            elseif($myage >= 21 ) {
+                 print "you are allowed to buy sausage rolls";
+                }
+            
             ?>
          </p>
         </body>
