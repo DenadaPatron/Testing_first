@@ -4,9 +4,9 @@
     <body>
         <p>
             <?php
-                echo "hello world";
-                echo "hello," . " " . "world" . "!!";
-                echo 5 * 7;
+            $myname = "Hold The Door";
+            $myage = 420;
+            echo "My Name Is" . $myname . "and I am" . $myage . "years old";
             ?>
          </p>
         </body>
