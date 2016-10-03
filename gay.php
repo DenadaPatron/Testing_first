@@ -4,9 +4,12 @@
     <body>
         <p>
             <?php
-            $myname = "Hold The Door";
-            $myage = 420;
-            echo "My Name Is " . $myname . " and I am " . $myage . " years old";
+            $name = "Edgar";
+
+            if($name == "Simon"){
+                print "Yo mafrien";}
+            else {
+            print "kys";}
             ?>
          </p>
         </body>
