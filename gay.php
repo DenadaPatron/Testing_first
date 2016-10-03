@@ -12,9 +12,9 @@
                 print "You are allowed to buy mugs!";
             }
             elseif($myage >= 21 ) {
-                 print "you are allowed to buy sausage rolls";
+                 print "you are allowed to buy sausage rolls" ;
                 }
-            
+
             ?>
          </p>
         </body>
