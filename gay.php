@@ -22,6 +22,8 @@
 
         }
         data("Arthur", 5, 7, 3);
+        data("Joel", 2, 4, 9);
+        data("Jaki", 4, 7, 2);
 
 
         ?>
