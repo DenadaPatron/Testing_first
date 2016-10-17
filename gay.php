@@ -20,8 +20,7 @@
               echo "Award for the capture: £" . $aCapt;
 
 
-
-
+              data("Arthur", 5, 7, 3);
 
 
           }
