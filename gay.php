@@ -2,7 +2,7 @@
     <html>
         <head></head>
     <body>
-
+    <p>
             <?php
 
 
@@ -53,7 +53,8 @@ Use	the	following	equation	to	work	out	the	award	for	capture.
 ����� ��� ������� = 10 ∗ (���������� ∗ ��������� ∗ �����������������);
 2
 Call	3	instances	of	this	method	to	produce	wanted	banners	for	people*/
-            ?>
 
+            ?>
+        </p>
         </body>
 </html>
