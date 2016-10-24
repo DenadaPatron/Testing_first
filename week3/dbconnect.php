@@ -24,4 +24,7 @@ if (!$link) {
     exit;
 }
 
+
+mysqli_close($link);
+
     ?>
