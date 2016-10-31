@@ -1,7 +1,34 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1408229
- * Date: 24/10/2016
- * Time: 16:42
- */
+
+include('dbconnect.php');
+
+$sql = 'SELECT * FROM marvelmovies WHERE productionStudio like  Marvel Studios';
+
+$result=mysqli_query($link, $sql);
+while($row=$result->fetch_array())
+{
+  $movieTitle=$row['title'] ;
+  echo "<p>" . $movieTitle . "</p>";  
+}
+
+/*include('../dbconnect.php');
+
+$sql =  'SELECT * FROM marvelmovies';
+
+$result=mysqli_query($link, $sql);
+while($row=$result->fetch_array())
+{
+    $movieTitle=$row['title'];
+    echo "<p>" . $movieTitle . "</p>";
+
+}*/
+?>
+
+
+
+
+
+
+
+
+
