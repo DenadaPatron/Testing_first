@@ -9,5 +9,4 @@ while($row=$result->fetch_array()){
     $movieTitle=$row['title'];
     echo "<p>" .$movieTitle . "</p>";
 }
-
 ?>
