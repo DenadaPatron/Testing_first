@@ -2,7 +2,7 @@
 
 include('../dbconnect.php');
 
-$sql = 'SELECT * FROM marvelmovies WHERE yearReleased => 2010';
+$sql = 'SELECT * FROM marvelmovies WHERE yearReleased > 2010';
 
 $result=mysqli_query($link, $sql);
 while($row=$result->fetch_array())
