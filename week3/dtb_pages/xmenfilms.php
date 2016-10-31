@@ -1,6 +1,6 @@
 <?php
 
-include('../dbconnect.php');
+//include('../dbconnect.php');
 
 $sql = 'SELECT * FROM marvelmovies WHERE title like "X-men%"';
 
