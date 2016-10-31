@@ -1,6 +1,6 @@
 <?php
 
-include('dbconnect.php');
+include('../dbconnect.php');
 
 $sql = 'SELECT * FROM marvelmovies WHERE productionStudio like  Marvel Studios';
 
@@ -8,7 +8,7 @@ $result=mysqli_query($link, $sql);
 while($row=$result->fetch_array())
 {
   $movieTitle=$row['title'] ;
-  echo "<p>" . $movieTitle . "</p>";  
+  echo "<p>" . $movieTitle . "</p>";
 }
 
 /*include('../dbconnect.php');
