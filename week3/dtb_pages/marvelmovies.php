@@ -12,6 +12,9 @@ while($row=$result->fetch_array())
   echo "<p>" . $movieTitle . "</p>";
 }
 
+
+?>
+
 /*include('../dbconnect.php');
 
 $sql =  'SELECT * FROM marvelmovies';
@@ -19,12 +22,10 @@ $sql =  'SELECT * FROM marvelmovies';
 $result=mysqli_query($link, $sql);
 while($row=$result->fetch_array())
 {
-    $movieTitle=$row['title'];
-    echo "<p>" . $movieTitle . "</p>";
+$movieTitle=$row['title'];
+echo "<p>" . $movieTitle . "</p>";
 
 }*/
-?>
-
 
 
 
