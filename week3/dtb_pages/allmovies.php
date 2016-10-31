@@ -2,8 +2,9 @@
 
 include('../dbconnect.php');
 
+$sql =  'SELECT * FROM marvelmovies';
 
-$result=mysqli_query($db, $sql);
+$result=mysqli_query($link, $sql);
 while($row=$result->fetch_array())
 {
     $movieTitle=$row['title'];
