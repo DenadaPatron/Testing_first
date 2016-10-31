@@ -11,3 +11,4 @@ while($row=$result->fetch_array())
     echo "<p>" . $movieTitle . "</p>";
 }
 ?>
+
