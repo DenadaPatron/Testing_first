@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1408229
- * Date: 21/11/2016
- * Time: 11:59
- */
+
+echo "Where would you like to say hello";
+
+echo "<a href="https://www.google.com">Google</a>";
+
+?>
