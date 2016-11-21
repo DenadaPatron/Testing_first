@@ -5,6 +5,6 @@ $surname = $_POST["surname"];
 $gender = $_POST["gender"];
 $power = $_POST["power"];
 
-echo $forename. "\n" . $surname ."\n". $gender ."\n" . $power;
+echo $forename. '\n' . $surname ."\n". $gender ."\n" . $power;
 
 ?>
