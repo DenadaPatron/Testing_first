@@ -2,6 +2,6 @@
 
 $query = $_GET["query"];
 
-echo "Hello" . $query;
+echo "Hello\n" . $query;
 
 ?>
